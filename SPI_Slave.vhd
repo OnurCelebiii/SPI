@@ -60,11 +60,11 @@ process (i_sck) begin
 if rising_edge(i_sck)then 
     if i_rst = '1' then
     
-    s_i_ss              <=          '1'                   ;
-    s_o_miso            <=          '1'                   ;
-    s_i_mosi_reg        <=          x"00"                 ;
-    clk_counter         <=          0                     ;
-    state               <=          idle                  ;    
+        s_i_ss              <=          '1'                   ;
+        s_o_miso            <=          '1'                   ;
+        s_i_mosi_reg        <=          x"00"                 ;
+        clk_counter         <=          0                     ;
+        state               <=          idle                  ;    
     
     else
     
