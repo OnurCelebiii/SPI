@@ -34,7 +34,7 @@ component SPI_Slave is
     Port (i_sck                 :                   in std_logic                        ;
           i_mosi                :                   in std_logic                        ;
           i_ss                  :                   in std_logic                        ;
-          i_rst                 :                   in std_logic                        ;       -- asyncron rst
+          i_rst                 :                   in std_logic                        ;       -- asynchronous rst
           o_miso                :                   out std_logic)                      ;
           
 end component;
